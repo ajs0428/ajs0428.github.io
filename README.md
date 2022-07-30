@@ -1,6 +1,6 @@
 ## Anthony J. Stewart 
 
-![Image](IMG_0034.JPG)
+<img src="IMG_0034.JPG" width="100" height="100">
 ```markdown
 Syntax highlighted code block
 

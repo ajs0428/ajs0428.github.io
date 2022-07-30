@@ -1,4 +1,4 @@
- ## Anthony J. Stewart 
+## Anthony J. Stewart 
 
 
 ```markdown

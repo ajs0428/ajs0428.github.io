@@ -1,6 +1,6 @@
 ## Anthony J. Stewart 
 
-
+![Image](IMG_0034.JPG)
 ```markdown
 Syntax highlighted code block
 

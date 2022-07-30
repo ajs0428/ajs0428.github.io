@@ -1,6 +1,6 @@
 ## Anthony J. Stewart 
 
-<img src="IMG_0034.JPG" width="100" height="100">
+<img src="IMG_0034.JPG" width="400" height="500">
 ```markdown
 Syntax highlighted code block
 

@@ -12,6 +12,9 @@ forested wetlands in order to improve the estimates of soil carbon stocks
 
 <img src="pictures/IMG_3711.JPG" alt="drawing" width="200"/><img src="pictures/IMG_3828.JPG" alt="drawing" width="200"/><img src="pictures/IMG_3860.JPG" alt="drawing" width="200"/><img src="pictures/IMG_3872.JPG" alt="drawing" width="200"/>
 
+<img src="pictures/WIP_3D.png" width = "800"/>
+<img src="pictures/All_Carbon.png" width = "800"/>
+
 
 # Soil Carbon in Southeast Alaska and the North Pacific Temperate Coastal Rainforest
 

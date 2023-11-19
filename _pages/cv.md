@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-![](files/Anthony_Stewart_CV.png)
+[CV](/files/Anthony_Stewart_CV.png)

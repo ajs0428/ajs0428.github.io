@@ -1,4 +1,4 @@
-{% include navigation.html %}
+# Teaching 
 
 Teaching is a profoundly fulfilling and rewarding experience. As an educator, witnessing students' growth and development is a privilege that brings great joy and is an opportunity to impart knowledge, inspire curiosity, and foster a love for learning. I especially enjoy engaging with diverse students, encouraging open dialogue, and tailoring teaching methods to individual learning styles to create a dynamic and vibrant learning environment. 
 
@@ -9,7 +9,7 @@ Below are brief descriptions of teaching experiences at the undergraduate level
 ### Lidar Remote Sensing - ESRM 433 Spring 2023 
 
 <p align="center">
-<img src="files/clouds.png" alt="drawing" width="600"/>
+<img src="/images/clouds.png" alt="drawing" width="600"/>
 </p>
 
 #### Course Objectives: 
@@ -19,7 +19,7 @@ This course equipped students with the knowledge and skills to interpret and man
 
 
 <p align="center">
-<img src="files/lab6ss.png" width="350"><img src="pictures/wetprob.png" width="350">
+<img src="/images/lab6ss.png" width="350"><img src="/images/wetprob.png" width="350">
 </p>
 
 ---- 
@@ -33,6 +33,6 @@ This course provided an introduction to the principles of ecology, focusing on t
 I primarily taught the introduction to soils module focusing on soil formation and ecosystem services 
 
 <p align="center">
-<img src="files/Picture1.png" width="600">
+<img src="/images/Picture1.png" width="600">
 </p>
 

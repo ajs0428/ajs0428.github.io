@@ -86,7 +86,7 @@ author:
   location         : "Seattle, WA"
   employer         :
   pubmed           : ""
-  googlescholar    : ""
+  googlescholar    : "https://scholar.google.com/citations?user=3nOjNw4AAAAJ&hl=en"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -103,14 +103,14 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : ""
+  orcid            : "https://orcid.org/0000-0002-9655-9938"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : ""
-  threads          :
+  twitter          : "https://twitter.com/ajstewart04"
+  threads          : "https://www.threads.net/@anthonyjohnstewart"
   weibo            :
   xing             :
   youtube          :

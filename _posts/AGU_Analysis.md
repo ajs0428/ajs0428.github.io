@@ -1,7 +1,7 @@
 ---
 title: 'AGU Analysis'
-date: "`r Sys.Date()`"
-permalink: /posts/AGU_Analysis
+date: 2023-11-19
+permalink: /posts/AGU_Analysis/
 tags:
 ---
 

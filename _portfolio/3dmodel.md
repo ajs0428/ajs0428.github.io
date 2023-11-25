@@ -4,6 +4,4 @@ excerpt: ""
 collection: portfolio
 ---
 
-```stl
-/files/wet_soilpit.stl
-```
+<script src="/files/wet_soilpit.stl"></script>

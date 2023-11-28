@@ -9,3 +9,9 @@ collection: portfolio
 
 
 <iframe width="100%" height="800" src="/files/All_WA_SOC_shared.html">
+
+
+Other data processing for this project is 
+
+- [Here for geospatial processing](/files/All_WA_SOC_geospatial_processing.html)
+- [And here for data cleaning](/files/All_WA_SOC_spline_processing.html)

@@ -15,8 +15,10 @@ However, I'm always learning new things in research and I'm very open to discuss
 
 Please get in touch with me using my email: ajs0428@uw.edu
 
+<video width="1280" height="720" controls autoplay muted loop>
+<source src="https://github.com/ajs0428/ajs0428.github.io/blob/3ebbf0057c0f8884c180c7c1aaffeabd67987073/files/vlc-record-2023-12-03-23h32m55s-DJI_0222.MP4-.mp4" type="video/mp4">
+ Your browser does not support the video tag.
+</video>
 
-[/files/vlc-record-2023-12-03-23h32m55s-DJI_0222.MP4-.mp4](https://github.com/ajs0428/ajs0428.github.io/blob/3ebbf0057c0f8884c180c7c1aaffeabd67987073/files/vlc-record-2023-12-03-23h32m55s-DJI_0222.MP4-.mp4)https://github.com/ajs0428/ajs0428.github.io/blob/3ebbf0057c0f8884c180c7c1aaffeabd67987073/files/vlc-record-2023-12-03-23h32m55s-DJI_0222.MP4-.mp4
 
 
-https://github.com/ajs0428/ajs0428.github.io/blob/3ebbf0057c0f8884c180c7c1aaffeabd67987073/files/vlc-record-2023-12-03-23h32m55s-DJI_0222.MP4-.mp4

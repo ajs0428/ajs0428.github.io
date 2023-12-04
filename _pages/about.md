@@ -15,7 +15,3 @@ However, I'm always learning new things in research and I'm very open to discuss
 
 Please get in touch with me using my email: ajs0428@uw.edu
 
-[Follow me on Twitter @ajstewart04](https://twitter.com/ajstewart04)
-
-[Or on Linkedin](https://www.linkedin.com/in/ajstewart04/)
-

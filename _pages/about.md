@@ -15,10 +15,7 @@ However, I'm always learning new things in research and I'm very open to discuss
 
 Please get in touch with me using my email: ajs0428@uw.edu
 
-<video controls="" width="800" height="500" muted="" loop="" autoplay="">
-<source src="https://github.com/ajs0428/ajs0428.github.io/blob/3ebbf0057c0f8884c180c7c1aaffeabd67987073/files/wetshort.mp4" type="video/mp4">
- Your browser does not support the video tag.
-</video>
 
 
+https://github.com/ajs0428/ajs0428.github.io/assets/76980742/75f0e43d-e77f-4038-b695-610406cd144f
 

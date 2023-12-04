@@ -15,5 +15,5 @@ However, I'm always learning new things in research and I'm very open to discuss
 
 Please get in touch with me using my email: ajs0428@uw.edu
 
-<video src="/files/wetshort.mp4" controls="controls" style="max-width: 730px;">
+<video src="/files/wetshort.mp4" autoplay muted controls="controls" style="max-width: 730px;">
 </video>

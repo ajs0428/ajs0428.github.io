@@ -85,7 +85,7 @@ author:
   bio              : "Environmental scientist interested in carbon cycling, soil science, remote sensing, and wetland ecology"
   location         : "Seattle, WA"
   employer         :
-  pubmed           : ""
+  pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=3nOjNw4AAAAJ&hl=en"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "ajs0428"
+  github           : "https://github.com/ajs0428/ajs0428.github.io"
   google_plus      :
   keybase          :
   instagram        :

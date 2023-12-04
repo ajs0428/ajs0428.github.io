@@ -9,11 +9,13 @@ redirect_from:
 ---
 ### PhD Candidate at the University of Washington
 
-I'm interested in characterizing carbon storage and cycling across the terrestrial to aquatic hydrologic gradient using field collected measurments coupled with data driven analysis such as remote sensing and machine learning. 
+My research interests include characterizing and quantifying carbon storage and cycling across the terrestrial and aquatic environments using field collected measurments coupled with data driven analysis such as remote sensing and machine learning. This spans fields such as wetland ecology, forest ecology, soil science, hydrology, and data science.
 
-However, I'm always learning new things in research and I'm very open to discussing and collaborating. 
+I am a passionate educator and have experience teaching undergraduate ecology, soil science, and lidar remote sensing. 
 
-Please get in touch with me using my email: ajs0428@uw.edu
+I greatly appreciate opportunities to continue learning new things in research through collaborating and sharing ideas. 
+
+Please feel free to get in touch with me using my email: ajs0428@uw.edu
 
 <video src="/files/wetshort.mp4" autoplay muted loop controls="controls" style="max-width: 730px;">
 </video>

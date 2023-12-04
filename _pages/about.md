@@ -15,3 +15,5 @@ However, I'm always learning new things in research and I'm very open to discuss
 
 Please get in touch with me using my email: ajs0428@uw.edu
 
+
+/files/vlc-record-2023-12-03-23h32m55s-DJI_0222.MP4-.mp4

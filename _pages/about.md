@@ -15,7 +15,5 @@ However, I'm always learning new things in research and I'm very open to discuss
 
 Please get in touch with me using my email: ajs0428@uw.edu
 
-
-
-https://github.com/ajs0428/ajs0428.github.io/assets/76980742/75f0e43d-e77f-4038-b695-610406cd144f
-
+<video src="https://user-images.githubusercontent.com/169707/126715420-991ad821-9ac8-4b66-b79e-e0966e0f3a89.mp4" controls="controls" style="max-width: 730px;">
+</video>

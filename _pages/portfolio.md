@@ -21,7 +21,7 @@ Forested wetlands are diverse habitats that are often difficult to map due to be
 **Teal Carbon** : Carbon stored in terrestrial inland wetlands
 
 <p align=center>
-<img src="/files/IMG_3711.JPG" alt="drawing" width="200"/><img src="/files/IMG_3828.JPG" alt="drawing" width="200"/><img src="/files/IMG_3860.JPG" alt="drawing" width="200"/><img src="/files/IMG_3872.JPG" alt="drawing" width="200"/>
+<img src="/files/IMG_3711.JPG" alt="drawing" width="200"/><img src="/files/IMG_3828.JPG" alt="drawing" width="200"/>
 </p>
 
 
@@ -44,7 +44,7 @@ In collaboration with the U.S. Forest Service Pacific Northwest Research Station
 
 
 <p align=center>
-<img src="/files/IMG_0774.JPG" alt="drawing" width="250"/><img src="/files/IMG_0952.JPG" alt="drawing" width="250"/><img src="/files/IMG_1010.JPG" alt="drawing" width="250"/>
+<img src="/files/IMG_0774.JPG" alt="drawing" width="250"/><img src="/files/IMG_0952.JPG" alt="drawing" width="250"/>
 </p>
 
 

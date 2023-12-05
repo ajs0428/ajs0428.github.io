@@ -5,7 +5,7 @@ permalink: /portfolio/
 
 ## Forested Wetland Identification
 
-Forested wetlands are diverse habitats that are often difficult to map due to being hidden from aerial photography and satellite imagery by their overstory. This is especially true in the Pacific Northwest where tall and dense conifers cover the landscape year-round. To identify forested wetlands, I collaborated on developing the Wetland Intrinsic Potential tool (WIP tool) which leverages terrain metrics and machine learning to identify probability patterns of wetlands across a landscape. This work was led by Dr. Meghan Halabisky and has been [published in Hydrologic and Earth System Science](https://hess.copernicus.org/articles/27/3687/2023/)
+Forested wetlands are diverse habitats that are often difficult to map due to being hidden from aerial photography and satellite imagery by their overstory. This is especially true in the Pacific Northwest where tall and dense conifers cover the landscape year-round. To identify forested wetlands, I collaborated on developing the Wetland Intrinsic Potential tool (WIP tool) which leverages terrain metrics and machine learning to identify probability patterns of wetlands across a landscape. This work was led by Dr. Meghan Halabisky and has been [published in Hydrology and Earth System Science](https://hess.copernicus.org/articles/27/3687/2023/)
 
 <p align=center>
 <img src="/files/Hoh_WIP_zoom.jpg" alt="drawing" width="400"/>
@@ -34,7 +34,9 @@ forested wetlands in order to improve the estimates of soil carbon stocks. We ar
 In collaboration with the U.S. Forest Service Pacific Northwest Research Station, we expanded the mapping of wetland-to-upland SOC stocks in the Heen Latinee Experimental Forest (HLEF) within the North Pacific Coastal Temperate Rainforest (NPCTR). The NPCTR is one of the most carbon dense ecosystems on the planet with cool temperatures and high precipitation (Bidlack et al., 2021). Leveraging the WIP wetland probability metric (Halabisky et al., 2022) as a wetland-to-upland continuum and the SOC samples along it, we can potentially identify how MAOM and POM vary with this gradient. 
 
 
-
+<p align=center>
+<img src="/files/ouboundsoil.jpg" alt="drawing" width = 200/>
+</p>
 
 
 

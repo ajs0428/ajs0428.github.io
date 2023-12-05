@@ -24,19 +24,17 @@ I am part of the Teal Carbon research team at the University of Washington which
 forested wetlands in order to improve the estimates of soil carbon stocks. We are addressing a potential missing pool of soil carbon that may be vulnerable to future climate conditions and land use change.
 
 <p align=center>
-<img src="/files/hoh_SOC 2.png" alt="drawing" width = 600/>
+<img src="/files/hoh_SOC 2.png" alt="drawing" width = 300/>
 </p>
 
 
 
 ## Soil Carbon in Southeast Alaska and the North Pacific Temperate Coastal Rainforest 
 
-In collaboration with the U.S. Forest Service Pacific Northwest Research Station, we expanded the mapping of wetland-to-upland SOC stocks in the Heen Latinee Experimental Forest (HLEF) within the North Pacific Coastal Temperate Rainforest (NPCTR). The NPCTR is one of the most carbon dense ecosystems on the planet with cool temperatures and high precipitation (Bidlack et al., 2021). Leveraging the WIP wetland probability metric (Halabisky et al., 2022) as a wetland-to-upland continuum and the SOC samples along it, we can potentially identify how MAOM and POM vary with this gradient. The intermediate WIP range appears to correspond to an aquic soil moisture regime that contains elevated SOC concentrations due to wetter conditions than typical upland soils, but does not maintain soil water saturation long enough meet hydric soil criteria. This dynamic soil area indicated by the WIP range could also encompass interesting relationships with lithology and the cycling of Fe with SOM to create stable MAOM. Fe rich parent material derived from slate can provide Fe(III) oxides that occur in oxic soils and can bind to stabilize SOM but it can become reduced to Fe(II) and mobile in saturated and anoxic soils and lose its SOM stabilizing connection (Spinola et al., 2022; Wang et al., 2017). By utilizing the WIP metric we can potentially elucidate a landscape spatial predictor for mapping soil carbon stabilization. 
+In collaboration with the U.S. Forest Service Pacific Northwest Research Station, we expanded the mapping of wetland-to-upland SOC stocks in the Heen Latinee Experimental Forest (HLEF) within the North Pacific Coastal Temperate Rainforest (NPCTR). The NPCTR is one of the most carbon dense ecosystems on the planet with cool temperatures and high precipitation (Bidlack et al., 2021). Leveraging the WIP wetland probability metric (Halabisky et al., 2022) as a wetland-to-upland continuum and the SOC samples along it, we can potentially identify how MAOM and POM vary with this gradient. 
 
 
-<p align=center>
-<img src="/files/IMG_0774.JPG" alt="drawing" width="250"/><img src="/files/IMG_0952.JPG" alt="drawing" width="250"/>
-</p>
+
 
 
 

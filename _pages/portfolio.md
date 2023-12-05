@@ -8,10 +8,10 @@ permalink: /portfolio/
 # Forested Wetland Identification
 
   
-Forested wetlands are diverse habitats that are often difficult to map due to being hidden from aerial photography and satellite imagery by their overstory. This is especially true in the Pacific Northwest where tall and dense conifers cover the landscape year-round. To identify forested wetlands, I collaborated on developing the Wetland Intrinsic Potential tool (WIP tool) which leverages terrain metrics and machine learning to identify probability patterns of wetlands across a landscape. This work was led by Dr. Meghan Halabisky and [currently in review with an available preprint](https://egusphere.copernicus.org/preprints/2022/egusphere-2022-665/)
+Forested wetlands are diverse habitats that are often difficult to map due to being hidden from aerial photography and satellite imagery by their overstory. This is especially true in the Pacific Northwest where tall and dense conifers cover the landscape year-round. To identify forested wetlands, I collaborated on developing the Wetland Intrinsic Potential tool (WIP tool) which leverages terrain metrics and machine learning to identify probability patterns of wetlands across a landscape. This work was led by Dr. Meghan Halabisky and has been [published in Hydrologic and Earth System Science](https://hess.copernicus.org/articles/27/3687/2023/)
 
 <p align=center>
-<img src="pictures/WetlandEquation5.jpg" alt="drawing" width="500"/><img src="pictures/Hoh_WIP_zoom.jpg" alt="drawing" width="400"/>
+<img src="/files/WetlandEquation5.jpg" alt="drawing" width="500"/><img src="/files/Hoh_WIP_zoom.jpg" alt="drawing" width="400"/>
 </p>
 ----
 
@@ -21,7 +21,7 @@ Forested wetlands are diverse habitats that are often difficult to map due to be
 **Teal Carbon** : Carbon stored in terrestrial inland wetlands
 
 <p align=center>
-<img src="pictures/IMG_3711.JPG" alt="drawing" width="200"/><img src="pictures/IMG_3828.JPG" alt="drawing" width="200"/><img src="pictures/IMG_3860.JPG" alt="drawing" width="200"/><img src="pictures/IMG_3872.JPG" alt="drawing" width="200"/>
+<img src="/files/IMG_3711.JPG" alt="drawing" width="200"/><img src="/files/IMG_3828.JPG" alt="drawing" width="200"/><img src="/files/IMG_3860.JPG" alt="drawing" width="200"/><img src="/files/IMG_3872.JPG" alt="drawing" width="200"/>
 </p>
 
 
@@ -33,7 +33,7 @@ I am part of the Teal Carbon research team at the University of Washington which
 forested wetlands in order to improve the estimates of soil carbon stocks. We are addressing a potential missing pool of soil carbon that may be vulnerable to future climate conditions and land use change.
 
 <p align=center>
-<img src="pictures/hoh_SOC 2.png" alt="drawing" width = 600/>
+<img src="/files/hoh_SOC 2.png" alt="drawing" width = 600/>
 </p>
 
 ----
@@ -44,7 +44,7 @@ In collaboration with the U.S. Forest Service Pacific Northwest Research Station
 
 
 <p align=center>
-<img src="pictures/IMG_0774.JPG" alt="drawing" width="250"/><img src="pictures/IMG_0952.JPG" alt="drawing" width="250"/><img src="pictures/IMG_1010.JPG" alt="drawing" width="250"/>
+<img src="/files/IMG_0774.JPG" alt="drawing" width="250"/><img src="/files/IMG_0952.JPG" alt="drawing" width="250"/><img src="/files/IMG_1010.JPG" alt="drawing" width="250"/>
 </p>
 
 

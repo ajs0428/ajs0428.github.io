@@ -1,5 +1,5 @@
 ---
-title: "Research Portfolio"
+title: "Portfolio"
 permalink: /portfolio/
 ---
 

@@ -5,11 +5,9 @@ permalink: /portfolio/
 
 ## Forested Wetland Identification
 
-  
 Forested wetlands are diverse habitats that are often difficult to map due to being hidden from aerial photography and satellite imagery by their overstory. This is especially true in the Pacific Northwest where tall and dense conifers cover the landscape year-round. To identify forested wetlands, I collaborated on developing the Wetland Intrinsic Potential tool (WIP tool) which leverages terrain metrics and machine learning to identify probability patterns of wetlands across a landscape. This work was led by Dr. Meghan Halabisky and has been [published in Hydrologic and Earth System Science](https://hess.copernicus.org/articles/27/3687/2023/)
 
 <img src="/files/Hoh_WIP_zoom.jpg" alt="drawing" width="400"/>
-
 
 
 ## Teal Carbon

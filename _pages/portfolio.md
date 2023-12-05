@@ -4,7 +4,7 @@ permalink: /portfolio/
 ---
 
 
-----
+
 # Forested Wetland Identification
 
   
@@ -13,7 +13,7 @@ Forested wetlands are diverse habitats that are often difficult to map due to be
 <p align=center>
 <img src="/files/WetlandEquation5.jpg" alt="drawing" width="500"/><img src="/files/Hoh_WIP_zoom.jpg" alt="drawing" width="400"/>
 </p>
-----
+
 
 # Teal Carbon
 
@@ -36,7 +36,7 @@ forested wetlands in order to improve the estimates of soil carbon stocks. We ar
 <img src="/files/hoh_SOC 2.png" alt="drawing" width = 600/>
 </p>
 
-----
+
 
 # Soil Carbon in Southeast Alaska and the North Pacific Temperate Coastal Rainforest 
 

@@ -21,7 +21,7 @@ This course equipped students with the knowledge and skills to interpret and man
 
 I make all labs in Rmarkdown that allows students to visualize code outputs. A a sample of a lab is down below: 
 
-<iframe width="600" height="400" src="/files/Lab_7_ESRM433.html">
+<iframe width="600" height="400" src="https://github.com/ajs0428/ajs0428.github.io/blob/master/files/Lab_7_ESRM433.html">
 
 ---- 
 

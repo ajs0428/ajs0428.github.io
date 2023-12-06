@@ -20,10 +20,7 @@ Below are brief descriptions of teaching experiences at the undergraduate level
 This course equipped students with the knowledge and skills to interpret and manipulate 3D point cloud data from remote sensing sources. They explored state-of-the-art processing techniques and gained practical experience in various LiDAR applications. By the course's conclusion, students were well-prepared to evaluate available LiDAR data sources and design simple projects related to environmental applications.
 
 
-
-<p align="center">
-<img src="/images/lab6ss.png" width="350"><img src="/images/wetprob.png" width="350">
-</p>
+<iframe width="100%" height="800" src="/files/Lab_7_ESRM433.Rmd">
 
 ---- 
 

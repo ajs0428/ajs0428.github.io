@@ -11,8 +11,7 @@ The path to being a scientist is not straightforward for everyone. I love the op
 ### Upward Bound 
 
 <p align="center">
-<img src="/files/upbound1.jpg" alt="drawing" width="200"><img src="/files/ouboundsoil.jpg" width="200">
-</p>
+<img src="/files/upbound1.jpg" alt="drawing" width="200">
 
 I had an amazing opportunity to work with the Upward Bound program through the Univeristy of Maine, with Scott Braddock and Seth Campbell. I was able to work with other scientists, Diogo Spinola and Raquel Portes to facilitate a fieldwork experience in Juneau, Alaska for high school students from around the U.S who are underrepresented in the geosciences and would be first generation college students.
 

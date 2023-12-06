@@ -9,7 +9,7 @@ redirect_from:
 ---
 ### PhD Candidate at the University of Washington
 
-My research interests include characterizing and quantifying carbon storage and cycling across the terrestrial and aquatic environments using field collected measurments coupled with data driven analysis such as remote sensing and machine learning. This spans fields such as wetland ecology, forest ecology, soil science, hydrology, and data science.
+I am an environmental and data scientist interested in characterizing and quantifying carbon storage and cycling across the terrestrial and aquatic environments using field collected measurments coupled with data driven analysis such as remote sensing and machine learning. This spans fields such as wetland ecology, forest ecology, soil science, hydrology, and data science.
 
 I am a passionate educator and have experience teaching undergraduate ecology, soil science, and lidar remote sensing. 
 

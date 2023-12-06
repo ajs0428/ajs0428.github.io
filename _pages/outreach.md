@@ -21,7 +21,7 @@ I had an amazing opportunity to work with the Upward Bound program through the U
 During the virtual days of the pandemic I was able to provide a guest presentation about my PhD work and talk about college and graduate school for a local PNW high school 
 
 <p align="center">
-<img src="/files/centralhigh.png" width="200">
+<img src="/files/centralhigh.png" width="300">
 </p>
 
 ### Seacoast Science Center

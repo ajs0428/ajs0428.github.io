@@ -27,7 +27,15 @@ forested wetlands in order to improve the estimates of soil carbon stocks. We ar
 <img src="/files/hoh_SOC 2.png" alt="drawing" width = 300/>
 </p>
 
+## Geospatial controls on soil carbon stocks in the Pacific Northwest
+Soils store large amounts of organic carbon with some of the largest stocks in wetlands
+We need accurate models and maps of soil organic carbon (SOC) stocks that identify controls and drivers (Yu et al., 2021). However, it is challening to build models that include wetlands SOC stocks and identify significant drivers and controls, especially with a diversity of modeling approaches that include machine learning. 
 
+We have captured the soil moisture gradient using the Wetland Intrinsic Potential (WIP) tool, a topographically-driven mapping algorithm that produces a continous probability metric between uplands and wetlands (Halabisky et al., 2023). We have shown its potential to better model SOC spatial distribution across diverse and heterogenous landscapes (Stewart et al., in revision), but it is uncertain if SOC driven by the WIP gradient acoss different regions and scales.
+
+<div align="center">
+<iframe width="600" height="400" src="/files/All_WA_SOC_shared_spline.html"></iframe>
+</div>
 
 ## Soil Carbon in Southeast Alaska and the North Pacific Temperate Coastal Rainforest 
 

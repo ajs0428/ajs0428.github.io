@@ -8,7 +8,7 @@ permalink: /portfolio/
 Forested wetlands are diverse habitats that are often difficult to map due to being hidden from aerial photography and satellite imagery by their overstory. This is especially true in the Pacific Northwest where tall and dense conifers cover the landscape year-round. To identify forested wetlands, I collaborated on developing the Wetland Intrinsic Potential tool (WIP tool) which leverages terrain metrics and machine learning to identify probability patterns of wetlands across a landscape. This work was led by Dr. Meghan Halabisky and has been [published in Hydrology and Earth System Science](https://hess.copernicus.org/articles/27/3687/2023/)
 
 <p align=center>
-<img src="/files/IMG_3068.JPG" alt="drawing" width="500"/>
+<img src="/files/Hoh_WIP_zoom.jpg" alt="drawing" width="500"/>
 </p>
 
 ## Teal Carbon & Cryptic Carbon
@@ -24,7 +24,7 @@ In Washington State and the Pacific Northwest of the U.S. perennial forest cover
 I am part of the Teal Carbon research team at the University of Washington which is collaborating with stakeholders to enhance remote sensing approaches to mapping forested wetlands in order to improve the estimates of soil carbon stocks. We are addressing a potential missing pool of soil carbon that may be vulnerable to future climate conditions and land use change.
 
 <p align=center>
-<img src="/files/hoh_SOC 2.png" alt="drawing" width = 300/>
+<img src="/files/IMG_3068.JPG" alt="drawing" width = 500/>
 </p>
 
 ## Geospatial controls on soil carbon stocks in the Pacific Northwest
@@ -43,7 +43,7 @@ In collaboration with the U.S. Forest Service Pacific Northwest Research Station
 
 
 <p align=center>
-<img src="/files/ouboundsoil.jpg" alt="drawing" width = 200/>
+<img src="/files/ouboundsoil.jpg" alt="drawing" width = 400/>
 </p>
 
 

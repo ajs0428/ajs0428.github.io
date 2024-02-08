@@ -2,7 +2,7 @@
 title: "The Wetland Intrinsic Potential tool: mapping wetland intrinsic potential through machine learning of multi-scale remote sensing proxies of wetland indicators"
 collection: publications
 permalink: /publication/WIP
-excerpt: 'Developing a remote sensing based wetland identification tool'
+excerpt: ''
 date: 2023-10-20
 venue: 'Hydrology and Earth System Sciences'
 paperurl: 'https://hess.copernicus.org/articles/27/3687/2023/'

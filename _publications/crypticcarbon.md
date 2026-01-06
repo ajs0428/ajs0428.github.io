@@ -5,7 +5,11 @@ permalink: /publication/crypticcarbon
 excerpt: ''
 date: 2024/01/25
 venue: 'Nature Communications'
+<<<<<<< HEAD
 paperurl: 'https://doi.org/10.1038/s41467-024-44888-x'
+=======
+paperurl: ''
+>>>>>>> 364a4911e2154759461be27f1740173aac2e27b9
 citation: 'Stewart, Anthony J., Meghan Halabisky, Chad Babcock, David E. Butman, David V. D’Amore, and L. Monika Moskal. “Revealing the Hidden Carbon in Forested Wetland Soils.” Nature Communications 15, no. 1 (January 25, 2024): 726. https://doi.org/10.1038/s41467-024-44888-x.'
 
 ---

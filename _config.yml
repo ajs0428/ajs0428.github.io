@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Anthony J. Stewart"
 title_separator          : "-"
 name                     : &name "Anthony J. Stewart"
-description              : &description "PhD Student at University of Washington"
+description              : &description "Postdoctoral Fellow at Cornell University"
 url                      : https://ajs0428.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ajs0428/ajs0428.github.io"
@@ -82,14 +82,14 @@ analytics:
 author:
   name             : "Anthony J. Stewart"
   avatar           : "ProfilePic.jpg"
-  bio              : "Environmental data scientist interested in carbon cycling, soil science, remote sensing, and wetland ecology"
-  location         : "Seattle, WA"
+  bio              : "2025 Cornell Atkinson Postdoctoral Fellow researching wetland carbon cycling, soil science, remote sensing, and wetland ecology"
+  location         : "Ithaca, NY"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=3nOjNw4AAAAJ&hl=en"
-  email            :
+  email            : "ajs544@cornell.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
+  uri              : "https://www.atkinson.cornell.edu/profile/anthony-stewart/"
   bitbucket        :
   codepen          :
   dribbble         :

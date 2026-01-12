@@ -1,5 +1,5 @@
 ---
-title: 'Welcome to My Blog'
+title: 'Finding Ski Touring Around Central NY'
 date: 2026-01-11
 permalink: /posts/2026/01/Finding-NY-BC/
 tags:

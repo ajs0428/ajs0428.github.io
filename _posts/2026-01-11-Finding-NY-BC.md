@@ -11,7 +11,7 @@ I knew there were going to be limits for backcountry skiing in my first winter b
 
 So I settled on 3 criteria a given place would need in order to have potential for ski touring with a healthy amount of snow:
 
-1.  Steep-ish slopes probably over 20^o^
+1.  Steep-ish slopes probably over 20˚
 2.  Not too much forest cover so there are potential gaps to ski through
 3.  Probably above 1000ft elevation to gain some additional snowfall
 

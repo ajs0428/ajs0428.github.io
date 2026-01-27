@@ -11,6 +11,11 @@ source "https://rubygems.org"
 
 gem "github-pages", group: :jekyll_plugins
 
+# Required for Ruby 3.4+
+gem "csv"
+gem "base64"
+gem "bigdecimal"
+
 # If you want to use Jekyll native, uncomment the line below.
 # To upgrade, run `bundle update`.
 
@@ -23,5 +28,5 @@ group :jekyll_plugins do
   # gem "jekyll-archives"
   gem "jekyll-feed"
   gem 'jekyll-sitemap'
-  gem 'hawkins'
+  # gem 'hawkins' # Disabled due to http_parser.rb compatibility issues
 end

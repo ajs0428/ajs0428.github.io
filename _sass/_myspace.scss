@@ -1,0 +1,434 @@
+/* ==========================================================================
+   MYSPACE MODE - Early 2000s Throwback Theme
+   ========================================================================== */
+
+// MySpace color palette
+$myspace-pink: #ff00ff;
+$myspace-cyan: #00ffff;
+$myspace-lime: #00ff00;
+$myspace-yellow: #ffff00;
+$myspace-orange: #ff6600;
+$myspace-purple: #9900ff;
+$myspace-blue: #0066ff;
+$myspace-black: #000000;
+
+// Sparkle/star background pattern (base64 encoded tiny star)
+$star-pattern: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Ctext x='10' y='20' fill='%23ff00ff' font-size='8'%3E*%3C/text%3E%3Ctext x='50' y='15' fill='%2300ffff' font-size='6'%3E*%3C/text%3E%3Ctext x='80' y='30' fill='%23ffff00' font-size='10'%3E*%3C/text%3E%3Ctext x='25' y='50' fill='%2300ff00' font-size='7'%3E*%3C/text%3E%3Ctext x='70' y='60' fill='%23ff00ff' font-size='5'%3E*%3C/text%3E%3Ctext x='40' y='80' fill='%2300ffff' font-size='8'%3E*%3C/text%3E%3Ctext x='90' y='90' fill='%23ffff00' font-size='6'%3E*%3C/text%3E%3Ctext x='5' y='95' fill='%239900ff' font-size='9'%3E*%3C/text%3E%3C/svg%3E");
+
+// Keyframe animations
+@keyframes blink {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+
+@keyframes rainbow-border {
+  0% { border-color: $myspace-pink; }
+  16% { border-color: $myspace-orange; }
+  33% { border-color: $myspace-yellow; }
+  50% { border-color: $myspace-lime; }
+  66% { border-color: $myspace-cyan; }
+  83% { border-color: $myspace-purple; }
+  100% { border-color: $myspace-pink; }
+}
+
+@keyframes sparkle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.2); }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+@keyframes glow-pulse {
+  0%, 100% { text-shadow: 0 0 5px $myspace-cyan, 0 0 10px $myspace-cyan; }
+  50% { text-shadow: 0 0 20px $myspace-pink, 0 0 30px $myspace-pink, 0 0 40px $myspace-pink; }
+}
+
+// All MySpace styles scoped to body.myspace-mode
+body.myspace-mode {
+  background: $myspace-black $star-pattern repeat !important;
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', cursive !important;
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Ctext x='0' y='15' fill='%23ff00ff' font-size='15'%3E*%3C/text%3E%3C/svg%3E") 10 10, auto;
+
+  // Override main content area
+  #main {
+    background: linear-gradient(180deg,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(25, 0, 50, 0.9) 50%,
+      rgba(0, 0, 0, 0.9) 100%
+    );
+    border: 4px solid $myspace-pink;
+    border-radius: 0;
+    animation: rainbow-border 3s linear infinite;
+    box-shadow: 0 0 20px $myspace-pink, inset 0 0 20px rgba($myspace-purple, 0.3);
+    padding: 20px;
+    margin: 10px;
+  }
+
+  // Page content
+  .page {
+    background: transparent;
+  }
+
+  .page__content {
+    color: $myspace-cyan !important;
+
+    p, li, span {
+      color: $myspace-cyan !important;
+      text-shadow: 1px 1px 2px $myspace-black;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Comic Sans MS', 'Chalkboard SE', cursive !important;
+      color: $myspace-pink !important;
+      text-shadow: 2px 2px 0 $myspace-purple,
+                   0 0 10px $myspace-pink,
+                   0 0 20px $myspace-pink;
+      animation: glow-pulse 2s ease-in-out infinite;
+    }
+
+    a {
+      color: $myspace-lime !important;
+      text-decoration: underline !important;
+      font-weight: bold;
+
+      &:hover {
+        color: $myspace-yellow !important;
+        text-shadow: 0 0 10px $myspace-yellow, 0 0 20px $myspace-yellow;
+      }
+    }
+  }
+
+  // Page title
+  .page__title {
+    color: $myspace-yellow !important;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', cursive !important;
+    text-shadow: 3px 3px 0 $myspace-orange,
+                 0 0 20px $myspace-yellow,
+                 0 0 40px $myspace-orange !important;
+    font-size: 2.5em !important;
+    text-align: center;
+
+    &::before {
+      content: "~*~*~ ";
+    }
+    &::after {
+      content: " ~*~*~";
+    }
+  }
+
+  // Masthead / Navigation
+  .masthead {
+    background: linear-gradient(90deg, $myspace-purple, $myspace-blue, $myspace-purple) !important;
+    border-bottom: 3px solid $myspace-pink;
+    box-shadow: 0 0 15px $myspace-pink;
+  }
+
+  .masthead__inner-wrap {
+    background: transparent;
+  }
+
+  .site-title {
+    color: $myspace-yellow !important;
+    text-shadow: 2px 2px 0 $myspace-pink;
+    font-family: 'Comic Sans MS', cursive !important;
+  }
+
+  .greedy-nav a {
+    color: $myspace-cyan !important;
+    font-family: 'Comic Sans MS', cursive !important;
+
+    &:hover {
+      color: $myspace-yellow !important;
+      text-shadow: 0 0 10px $myspace-yellow;
+    }
+  }
+
+  .greedy-nav .visible-links a {
+    &::before {
+      background: $myspace-pink;
+    }
+  }
+
+  // Author profile sidebar
+  .sidebar {
+    background: linear-gradient(180deg,
+      rgba($myspace-purple, 0.3) 0%,
+      rgba($myspace-black, 0.8) 100%
+    );
+    border: 3px solid $myspace-cyan;
+    border-radius: 0;
+    padding: 15px;
+    box-shadow: 0 0 15px $myspace-cyan, inset 0 0 10px rgba($myspace-cyan, 0.2);
+  }
+
+  .author__avatar {
+    img {
+      border: 5px solid $myspace-pink !important;
+      border-radius: 0 !important;
+      box-shadow: 0 0 15px $myspace-pink,
+                  5px 5px 0 $myspace-purple;
+      animation: rainbow-border 2s linear infinite;
+    }
+  }
+
+  .author__name {
+    color: $myspace-yellow !important;
+    font-family: 'Comic Sans MS', cursive !important;
+    text-shadow: 2px 2px 0 $myspace-pink;
+    font-size: 1.3em;
+
+    &::before {
+      content: "xXx_";
+    }
+    &::after {
+      content: "_xXx";
+    }
+  }
+
+  .author__bio {
+    color: $myspace-lime !important;
+    font-style: italic;
+    text-shadow: 1px 1px 0 $myspace-black;
+  }
+
+  .author__urls {
+    background: rgba($myspace-black, 0.5);
+    border: 2px dashed $myspace-pink;
+    padding: 10px;
+  }
+
+  .author__urls a {
+    color: $myspace-cyan !important;
+
+    &:hover {
+      color: $myspace-yellow !important;
+    }
+  }
+
+  .author__urls .social-icons i,
+  .author__urls .social-icons .svg-inline--fa {
+    color: $myspace-pink !important;
+  }
+
+  // Footer
+  .page__footer {
+    background: linear-gradient(90deg, $myspace-black, $myspace-purple, $myspace-black) !important;
+    border-top: 3px solid $myspace-cyan;
+    color: $myspace-cyan;
+
+    a {
+      color: $myspace-pink !important;
+    }
+  }
+
+  // Video embeds
+  iframe {
+    border: 4px solid $myspace-lime !important;
+    box-shadow: 0 0 20px $myspace-lime;
+  }
+}
+
+// MySpace widgets (only visible in myspace-mode)
+.myspace-widgets {
+  display: none;
+}
+
+body.myspace-mode .myspace-widgets {
+  display: block;
+}
+
+// Music player widget
+.myspace-player {
+  background: linear-gradient(180deg, #333 0%, #111 100%);
+  border: 3px solid $myspace-cyan;
+  border-radius: 0;
+  padding: 15px;
+  margin: 20px 0;
+  box-shadow: 0 0 15px $myspace-cyan, inset 0 0 30px rgba($myspace-black, 0.8);
+  font-family: 'Comic Sans MS', cursive;
+
+  .player-title {
+    color: $myspace-yellow;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 0 $myspace-black;
+
+    &::before {
+      content: "Now Playing: ";
+      color: $myspace-pink;
+    }
+  }
+
+  .player-controls {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+
+    button {
+      background: linear-gradient(180deg, $myspace-purple 0%, darken($myspace-purple, 20%) 100%);
+      border: 2px solid $myspace-pink;
+      color: $myspace-cyan;
+      padding: 8px 15px;
+      cursor: pointer;
+      font-family: 'Comic Sans MS', cursive;
+      font-size: 1.2em;
+
+      &:hover {
+        background: linear-gradient(180deg, $myspace-pink 0%, darken($myspace-pink, 20%) 100%);
+        box-shadow: 0 0 10px $myspace-pink;
+      }
+    }
+  }
+
+  .player-progress {
+    height: 8px;
+    background: $myspace-black;
+    border: 1px solid $myspace-cyan;
+    position: relative;
+    overflow: hidden;
+
+    .progress-bar {
+      width: 35%;
+      height: 100%;
+      background: linear-gradient(90deg, $myspace-pink, $myspace-purple, $myspace-cyan);
+      animation: sparkle 1s ease-in-out infinite;
+    }
+  }
+}
+
+// View counter
+.myspace-counter {
+  background: $myspace-black;
+  border: 2px solid $myspace-lime;
+  display: inline-block;
+  padding: 8px 15px;
+  margin: 15px 0;
+  font-family: 'Courier New', monospace;
+
+  .counter-label {
+    color: $myspace-lime;
+    font-size: 0.8em;
+  }
+
+  .counter-number {
+    color: $myspace-yellow;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-shadow: 0 0 5px $myspace-yellow;
+  }
+}
+
+// Online indicator
+.myspace-online {
+  display: inline-block;
+  margin-left: 15px;
+  color: $myspace-lime;
+  font-family: 'Comic Sans MS', cursive;
+  font-weight: bold;
+  animation: blink 1s step-end infinite;
+
+  &::before {
+    content: "* ";
+    color: $myspace-lime;
+  }
+}
+
+// Marquee text
+.myspace-marquee {
+  background: linear-gradient(90deg, transparent, rgba($myspace-purple, 0.3), transparent);
+  overflow: hidden;
+  padding: 10px 0;
+  margin: 15px 0;
+  border-top: 1px dashed $myspace-pink;
+  border-bottom: 1px dashed $myspace-pink;
+
+  .marquee-content {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 15s linear infinite;
+    color: $myspace-yellow;
+    font-family: 'Comic Sans MS', cursive;
+    text-shadow: 1px 1px 0 $myspace-pink;
+
+    span {
+      margin: 0 50px;
+    }
+  }
+}
+
+// Toggle button styling
+.myspace-toggle-container {
+  text-align: center;
+  margin: 40px 0 20px 0;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.myspace-toggle-btn {
+  background: linear-gradient(180deg, #f0f0f0 0%, #d0d0d0 100%);
+  border: 2px solid #999;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  font-size: 1.8em;
+  cursor: pointer;
+  transition: all 0.2s;
+  line-height: 1;
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+}
+
+body.myspace-mode .myspace-toggle-btn {
+  background: linear-gradient(180deg, $myspace-pink 0%, darken($myspace-pink, 30%) 100%);
+  border-color: $myspace-cyan;
+  box-shadow: 0 0 15px $myspace-pink;
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px $myspace-cyan;
+  }
+}
+
+body.myspace-mode .myspace-toggle-container {
+  border-top-color: $myspace-purple;
+}
+
+// Thanks for the add section
+.myspace-thanks {
+  background: rgba($myspace-black, 0.7);
+  border: 2px solid $myspace-pink;
+  padding: 15px;
+  margin: 20px 0;
+  text-align: center;
+  font-family: 'Comic Sans MS', cursive;
+
+  .thanks-title {
+    color: $myspace-yellow;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 0 $myspace-pink;
+
+    &::before, &::after {
+      content: " ~*~ ";
+      color: $myspace-pink;
+    }
+  }
+
+  .thanks-message {
+    color: $myspace-cyan;
+    font-style: italic;
+  }
+}

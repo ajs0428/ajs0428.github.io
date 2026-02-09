@@ -21,3 +21,5 @@ Please feel free to get in touch with me using my email: ajs544@cornell.edu
 
 <video src="/files/wetshort.mp4" autoplay muted loop controls="controls" style="max-width: 730px;">
 </video>
+
+{% include myspace-toggle.html %}

@@ -2,3 +2,6 @@ _site/
 .DS_Store
 CLAUDE.md
 background_docs/
+
+# Quarto/Positron render artifacts accidentally dropped into posts
+_posts/*_files/

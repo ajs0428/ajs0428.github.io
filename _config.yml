@@ -146,6 +146,7 @@ exclude:
   - package.json
   - tmp
   - vendor
+  - _posts/*_files   # Quarto/Positron render artifacts (binary assets break the build)
 keep_files:
   - .git
   - .svn

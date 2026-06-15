@@ -26,30 +26,17 @@ But what are these deep learnign features? In the WIP random forest model, we ca
 So that brings me to this attempt to visualize those featuers as they are built in the deep learning model. 
 
 ### The input data 
-We'll use is a 256m x 256m image stack that contains multiple bands of information to train on for predicting wetland classes. In total there are 19 predictors: 
+We'll use is a 256m x 256m image stack that contains multiple bands of information to train on for predicting wetland classes. In total there are 19 predictors in these groupings: 
 
-| Band # | Band Name | Category | Description |
-|--------|-----------|----------|-------------|
-| 1 | DEM | Terrain | Digital elevation model; bare-earth surface height (m) from LiDAR, the base layer for all derived terrain metrics. |
-| 2 | slope_local | Terrain | Local slope gradient (degrees or %) from the DEM; steepness control on drainage and water retention. |
-| 3 | Geomorph_local | Landform (one-hot → 10 channels) | Categorical geomorphon landform class (e.g., flat, slope, valley, depression), expanded to 10 binary channels for the model. |
-| 4 | flowacc | Terrain | Flow accumulation; upslope contributing area per cell, indicating water convergence and potential wetness. |
-| 5 | twi | Terrain | Topographic wetness index; combines slope and contributing area to estimate soil moisture potential. |
-| 6 | CHM | Canopy height | Canopy height model (m); vegetation height from LiDAR (DSM minus DEM). |
-| 7 | r | NAIP leaf-on | Red reflectance, leaf-on NAIP imagery (growing season). |
-| 8 | g | NAIP leaf-on | Green reflectance, leaf-on NAIP imagery. |
-| 9 | b | NAIP leaf-on | Blue reflectance, leaf-on NAIP imagery. |
-| 10 | nir | NAIP leaf-on | Near-infrared reflectance, leaf-on NAIP; sensitive to vegetation vigor and water. |
-| 11 | r_lo | NAIP leaf-off | Red reflectance, leaf-off NAIP imagery (dormant season; reveals ground/understory). |
-| 12 | g_lo | NAIP leaf-off | Green reflectance, leaf-off NAIP imagery. |
-| 13 | b_lo | NAIP leaf-off | Blue reflectance, leaf-off NAIP imagery. |
-| 14 | nir_lo | NAIP leaf-off | Near-infrared reflectance, leaf-off NAIP; useful for detecting standing water and saturated soils. |
-| 15 | pct_below_1m | Veg structure | Proportion of LiDAR returns below 1 m; ground/low-vegetation cover fraction. |
-| 16 | pct_1m_to_5m | Veg structure | Proportion of LiDAR returns between 1–5 m; shrub/midstory layer density. |
-| 17 | pct_above_5m | Veg structure | Proportion of LiDAR returns above 5 m; overstory canopy density. |
-| 18 | MOD_CLASS | Label | Target wetland class label used for supervised training (not a model input). |
+| Category | Description |
+|---------|-----------|
+| Elevation/Terrain | Digital elevation model and terrain derivatives|
+| Hydrology| Terrain derived hydrology metrics |
+| Imagery | leaf-on and leaf-off imagery |
+| Lidar | Percent returns above and below certain thresholds|
 
-And here are some images of what the patch looks like with some of those bands
+
+Here are some images of what the patch looks like with some of those bands
 
 <figure>
   <img src="/files/patchSatellite.png" alt="">
@@ -64,14 +51,26 @@ And here are some images of what the patch looks like with some of those bands
 
 ### The deep learning model architecture
 
-We are using a convolutional neural network architecture called a U-Net [originally used for medical images](https://arxiv.org/abs/1505.04597) it has been adapted to other areas included geospatial. Specifically, we are using [U-Net3+](https://arxiv.org/abs/2004.08790) which aims to take advantage of all scales used in the regular U-Net 
+We are using a convolutional neural network architecture called **U-Net** [originally used for medical images](https://arxiv.org/abs/1505.04597) it has been adapted to other areas included geospatial. Specifically, we are using [U-Net3+](https://arxiv.org/abs/2004.08790) which aims to take advantage of all scales used in the regular U-Net 
 
 <figure>
   <img src="/files/unet3plus.png" alt="">
   <figcaption>The U-Net compared to its further developments (from the original U-Net3+ paper by Huang et al,. 2020)</figcaption>
 </figure>
 
-The U-Net architecture has three main components: Encoders, Decoders, and a Bottleneck. Input images from a training dataset enter the model pipeline at the encoder. Encoders are where convolutions take place and the feature maps are created. The convolutions are usually 3x3 kernels that down-sample the resolution (e.g. 256x256 to 128x128). In our U-Net the first encoder starts with 64 convolutions creating 64 feature maps. A ReLU activation function then finds the features based on a threshold (usually 0 since everything is normalized) and a max pooling filter then moves across all of these activated feature maps to downsample (usually by 1/2, e.g. 256x256 -> 128x128) and produce a single feature map that moves to the next encoder. The next encoder doubles to 128 convolutions and then 128 features, which similarly go through ReLU activation max pooling. At each encoder level, the input image gets downsampled until it reaches the bottleneck where the lowest resolution but highest number of feature maps reside. 
+The U-Net architecture has three main components: Encoders, Decoders, and a Bottleneck. Input images (with 19 input bands) from a training dataset enter the model pipeline at the first encoder block. Encoder blocks are where convolution filters take place and the feature maps are created. The convolution filters are usually 3x3 kernels with weights that are initialized and trained to detect features and use padding to preserve the native resolution (256x256). 
+
+|  | A 3x3 kernel |  |
+| :--: | :--: | :--: |
+|w1|w2|w3|
+|w4|w5|w6|
+|w7|w8|w9|
+
+In our U-Net the first encoder block uses 64 filters creating 64 feature maps. 
+
+- Side note: to me, `kernels = filters = moving windows` but that might be oversimplifying things, since technically the convolution filter works across all the input channels. 
+
+With those 64 feature maps, a ReLU activation is ued to zero out the negative values, introducing non-linearity. Then, a 2x2 kernel for max pooling kernel is used to down-sample the resolution of each of the 64 feature maps (e.g. 256x256 to 128x128). The next encoder doubles to 128 convolution filters and then 128 features, which similarly go through ReLU activation max pooling. At each subsequent encoder block, the resolution decreases and feature maps increase in number until it reaches the bottleneck where the lowest resolution but highest number of feature maps reside. 
 
 ### Into the encoders
 So once we put our 256m x 256m input image with 19 bands shown above into the encoder, the convolutions and ReLU start to create feature maps. There are tons of these feature maps 64+128+256+512 = 960 total just from the encoders! Because that's so many, I've taken the highest variance feature maps and show them below.
